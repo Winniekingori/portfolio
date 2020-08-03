@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background: #fff;    
+}
+
+.top{
+    background: linear-gradient(rgba(121, 121, 121, 0.06));
+    padding: 2px;
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    color:black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.dplip-path{
+    height: 160px;
+    margin-top: 2px;
+}
+
+.container{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQIPcIOgrtaer9TaSh_XX7hu28JqW8wWSxqkQ&usqp=CAU");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 2px;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white ;
+
+}
+
+.UI/UX Design{
+    position: relative;
+    display: none;
+    width: 80%;
+    left:10%;
+    border-radius: 10px;
+}
+
+.title{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.progress{
+    height: 20px;
+    width: 70%;
+    padding: 2px;
+    border-radius: 15px;
+    background:#fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.lang{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: bold;
+
+}
+
+.fill{
+    height: 16px;
+    border-radius: 15px;
+    background: blue;
+
+}
+
+.project{
+    color: #fff;
+    margin-top: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #black;  
+    box-shadow: 0 2px 4px rgba(256, 265, 256, 0.3);
+    border: 1px solid;
+
+}
+
+.project:hover{
+    background: #8000ff;
+}
+
+.bottom{
+    margin-top: 2px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.6);
+    padding: 2px;
+}
